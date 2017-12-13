@@ -1,0 +1,37 @@
+{
+  "name": "dft-mvc-core-examples",
+  "description": "Usage examples of MVC Design Pattern (Facade, Model, View, Controller, common libraries).",
+  "version": "0.0.4",
+  "private": false,
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/ekalosha/nodejs-mvc-core-examples",
+  "url": "https://github.com/ekalosha/nodejs-mvc-core-examples",
+  "author": "Eugene A. Kalosha <ekalosha@dfusiontech.com>",
+  "email": "ekalosha@dfusiontech.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekalosha/nodejs-mvc-core-examples"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ekalosha/nodejs-mvc-core-examples/issues"
+  },
+  "dependencies": {
+    "async": "~2.6.0",
+    "dft-mvc-core": "~0.6.2",
+    "body-parser": "~1.17.1",
+    "moment": ">=2.10.6",
+    "passport": "^0.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "request": "^2.83.0"
+  },
+  "engines": {
+    "node": ">=8.4.0",
+    "npm": ">=5.3.0"
+  }
+}
